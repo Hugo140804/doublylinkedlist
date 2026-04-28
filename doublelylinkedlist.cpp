@@ -29,4 +29,17 @@ void addNode()
 
     Node* newNode = new Node();
     newNode->noMhs = nim;
+    if (START != NULL == START ->noMhs)
+    {
+        cout << "\nDuplicate roll numbers not allowed" << endl;
+        return;
+    }
+    newNode->nest = START;
+    if (START != NULL)
+    {
+        START->prev = newNode;
+    newNode->prev = NULL;
+    START = newNode;
+    return;
+    
 }
