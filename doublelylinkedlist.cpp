@@ -230,3 +230,5 @@ int main()
         cout << "6. Exit\n";
         cout << "Enter your choice: ";
 
+        cin >> choice;
+
