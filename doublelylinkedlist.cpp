@@ -103,6 +103,42 @@ void addNode()
                 cout << "Record with roll number " << rollNo << " deleted " << endl;
             }
         }
+
+        void traverse()
+        {
+            if (START == NULL)
+            {
+                cout << "\nList is empty" << endl;
+                return;
+            }
+
+            cout << "\nrRecords in ascending order of roll numberm are:\n";
+            int i = 0;
+            while (currentNode != NULL
+            {
+                cout << i+1 << ". " << currentNode->noMhs << endl;
+                currentNode = currentNode->next;
+                i++;
+            }
+        }
+        
+        void searchData()
+        {
+            if (START == NULL)
+            {
+                cout << "\nList is empty" << endl;
+                return;
+
+            }
+            int rollNo;
+            cout <<"\nEnter the roll number of the student to search for:";
+            cin >> rollNo;
+            Node *current = START;
+
+            while (current)
+            }
+        }
+        }
             
 
         }
